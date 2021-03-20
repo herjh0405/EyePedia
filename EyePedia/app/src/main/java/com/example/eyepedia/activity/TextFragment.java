@@ -34,7 +34,7 @@ public class TextFragment extends Fragment {
     private TextView textView;
     private ConstraintLayout constraintLayout;
     private Button btn;
-    final static String filePath = Environment.getExternalStorageDirectory().getAbsolutePath();
+    final static String filePath = Environment.DIRECTORY_DOWNLOADS+"test.txt";
 
     public TextFragment() {
         // Required empty public constructor
