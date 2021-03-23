@@ -388,7 +388,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarLayout menuBar;
     private GazePathView gazePathView;
     private boolean isUseGazeFilter = true;
-    private CalibrationModeType calibrationType = CalibrationModeType.ONE_POINT;
+    private CalibrationModeType calibrationType = CalibrationModeType.DEFAULT;
 
     private void initView() {
         backgroundLayout = findViewById(R.id.layout_background);
